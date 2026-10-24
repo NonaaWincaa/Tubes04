@@ -1,0 +1,69 @@
+/* General Layout Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f7f5fb; /* Soft Violet Background */
+  color: #4a4062;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 40px;
+  box-shadow: 0 4px 15px rgba(147, 112, 219, 0.08);
+}
+
+.logo {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Styling Navigasi */
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #5e5373;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+  background-color: #e6e1f7; /* Soft Lavender Accent */
+  color: #6b46c1;
+}
+
+/* Main Content Wrapper */
+.main-content {
+  flex: 1;
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  border-top: 1px solid #ebe5f5;
+  color: #8c82a1;
+  font-size: 0.9rem;
+}

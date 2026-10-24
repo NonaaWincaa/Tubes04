@@ -1,0 +1,35 @@
+/* Styles Specific to Kalender */
+.calendar-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.calendar-day {
+  padding: 15px;
+  background-color: #f8fafc;
+  border-radius: 6px;
+  min-height: 80px;
+}
+
+.calendar-day.active {
+  background-color: #e2e8f0;
+  font-weight: bold;
+}
